@@ -1,3 +1,7 @@
+/*
+There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
+*/
+
 package main
  
 func main() {

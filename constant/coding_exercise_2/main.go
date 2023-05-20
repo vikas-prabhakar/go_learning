@@ -1,3 +1,8 @@
+/*
+Change the code from the previous exercise and declare all 3 constants as grouped constants.
+
+Make them untyped.
+*/
 package main
 
 //import "fmt"

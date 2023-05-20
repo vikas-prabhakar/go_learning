@@ -2,13 +2,17 @@
 There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
 */
 package main
-
+ 
 import "fmt"
-// ERROR -> := is not allowed in package scope (only local scope)
-// version := "3.1"
-var version = "3.1"
  
 func main() {
-	name := "Golang"
-	fmt.Println(name)
+    x, y := 4, 5.1
+ 
+    z := x * int(y)
+    fmt.Println(z)
+ 
+    a := 5
+    b := 6.2 * float64(a)
+    fmt.Println(b)
+ 
 }

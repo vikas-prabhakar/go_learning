@@ -1,14 +1,15 @@
 /*
 There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
 */
-package main
 
+package main
+ 
 import "fmt"
-// ERROR -> := is not allowed in package scope (only local scope)
-// version := "3.1"
-var version = "3.1"
+ 
+type duration int
  
 func main() {
-	name := "Golang"
-	fmt.Println(name)
+    var hour duration = 3600
+    minute := 60
+    fmt.Println(hour != duration(minute))
 }
