@@ -72,5 +72,5 @@ func minOperations(nums []int) int {
 }
 
 /* 
-TC=O(3*n) as fliping element 3times when not current element is not 1 =O(n)
+TC=O(3*n) as fliping element 3times when current element is not 1 =O(n)
 SC=O(1)*/
